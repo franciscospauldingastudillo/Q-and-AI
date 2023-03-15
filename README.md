@@ -14,8 +14,7 @@ To run the model:
 "python3 ./qai.py nwords"
 where nwords is the number of topics that you want the model to include in your dataset. 
 
-The data collection step can take minutes to hours, depending on nwords. For those that wish to run the model and skip the data collection step,
-I have provided a json file with 598 words: data-598.json. To run the model with the pre-packaged data, run:
+The data collection step can take minutes to hours, depending on nwords and the tier of your OpenAI subscription. For those that wish to run the model and skip the data collection step, I have provided a json file with 598 words: data-598.json. To run the model with the pre-packaged data, run:
 "python3 ./qai.py 598"
 
 Have fun!
