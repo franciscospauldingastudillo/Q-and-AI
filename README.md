@@ -7,8 +7,8 @@ A requirements.txt file is provided to set up your virtual environment. Inside y
 pip install -r requirements.txt
 
 Before running the model,
-Copy and paste your OpenAI user key into gpt_query(). You can obtain this key from your OpenAI account.
-Change the path to your working directory.
+1) copy and paste your OpenAI user key into gpt_query(). You can obtain this key from your OpenAI account.
+2) change the path to your working directory.
 
 To run the model:
 python3 ./qai.py nwords
